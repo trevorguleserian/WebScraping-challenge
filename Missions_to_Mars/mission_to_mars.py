@@ -119,11 +119,11 @@ def for_mars():
 
 def scrape():
     mars = {}
-    mars['news_mars'] = mars_news()
-    mars['spaceimage'] = space_images()
+    mars['news_mars'] = news_mars()
+    mars['spaceimage'] = spaceimage()
     mars['mars_weather'] = mars_weather()
-    mars['table_df'] = mars_facts()
-    mars['for_mars'] = mars_images()
+    mars['table_df'] = table_df()
+    mars['for_mars'] = for_mars()
     
     return mars
 
